@@ -1,6 +1,7 @@
 {
   "name": "fm-card",
   "private": true,
+  "homepage": "http://rbkheredia.github.io/fm-card",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
