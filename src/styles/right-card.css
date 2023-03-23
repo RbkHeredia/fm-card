@@ -14,11 +14,12 @@
     color: #303b59;
 }
 
-.right-card >button{
+.right-card > a> button{
     background-color: #303b59;
     color: white;
     border-radius: 20px;
     margin-top: 15px;
+    width: 100%;
 }
 
 section{

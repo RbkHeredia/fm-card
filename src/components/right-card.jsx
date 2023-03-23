@@ -16,7 +16,9 @@ export default function RightCard(){
           color={option.color}
         />
       ))}
-      <button>Continue</button>
+      <a href='https://www.linkedin.com/in/rebeca-heredia-60599823a/'>
+        <button>Continue</button>
+      </a>
     </div>
   )
 }
