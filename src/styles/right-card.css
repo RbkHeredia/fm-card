@@ -1,0 +1,55 @@
+.right-card{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    border-radius: 25px 25px 0 0;
+    padding: 1.5rem;
+    justify-content: space-between;
+    text-align: start;
+    align-content: space-between;
+    height: 25rem;
+}
+
+.right-card > h3{
+    color: #303b59;
+}
+
+.right-card >button{
+    background-color: #303b59;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+section{
+    display: flex;
+    padding: 0.1rem 0.9rem;
+    line-height: 0;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.opacity{
+    color: #757575;
+}
+
+.rojo{
+    background-color: #fff6f5;
+    color: #dc898c;
+}
+
+.amarillo{
+    background-color: #fffbf2;
+    color: #f5ca68;
+}
+
+.verde{
+    background-color: #f2fbfa;
+    color: #42b79a;
+}
+
+.azul{
+    background-color: #f3f3fd;
+    color: #403fb7;
+}
+
