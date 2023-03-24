@@ -1,11 +1,12 @@
+import '../styles/right-card.css';
 
-export default function Section({ color, score, icon, category }){
+export default function Section({ color, score, icon, category, alt }){
   return(
     <section className={color}>
-      <img src={icon} />
-      <h3>{category}</h3>
-      <h3>{score}</h3>
-      <h3 className="opacity">/ 100</h3>
+      <img src={icon} alt={alt}/>
+      <p>{category}</p>
+      <p className="opacity">{score}</p>
+      <p className="opacity">/ 100</p>
     </section>
   )
 }

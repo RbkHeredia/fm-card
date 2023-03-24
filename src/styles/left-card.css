@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.card > h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .circle{
     display: flex;
     flex-direction: column;
@@ -21,13 +26,17 @@
     line-height: 0;
 }
 
-.circle > h1 {
+.circle > h2 {
     line-height: 0;
+    font-size: 45px;
 }
 
-.card > h5{
+.card > h4{
     font-weight: 500;
+    font-size: 16px;
 }
+
+
 
 @media screen and (max-width:800px) {
     .card{

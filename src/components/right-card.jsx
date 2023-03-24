@@ -14,6 +14,7 @@ export default function RightCard(){
           score={option.score}
           key={index}
           color={option.color}
+          alt={option.alt}
         />
       ))}
       <a href='https://www.linkedin.com/in/rebeca-heredia-60599823a/'>

@@ -3,25 +3,29 @@ var data = [
     "category": "Reaction",
     "score": 80,
     "icon": "./images/icon-reaction.svg",
-    "color": "rojo"
+    "color": "rojo",
+    "alt":"icon reaction"
   },
   {
     "category": "Memory",
     "score": 92,
     "icon": "./images/icon-memory.svg",
-    "color": "amarillo"
+    "color": "amarillo",
+    "alt":"icon memory"
   },
   {
     "category": "Verbal",
     "score": 61,
     "icon": "./images/icon-verbal.svg",
-    "color": "verde"
+    "color": "verde",
+    "alt":"icon verbal"
   },
   {
     "category": "Visual",
     "score": 72,
     "icon": "./images/icon-visual.svg",
-    "color": "azul"
+    "color": "azul",
+    "alt":"icon visual"
   }
 ]
 
