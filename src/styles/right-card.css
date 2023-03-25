@@ -14,12 +14,15 @@
     color: #303b59;
 }
 
-.right-card > a> button{
+.continue{
     background-color: #303b59;
     color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-top: 15px;
     width: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 0.7rem;
 }
 
 section{
@@ -29,6 +32,11 @@ section{
     justify-content: space-between;
     border-radius: 8px;
     font-size: 20px;
+}
+
+section > h6{
+    font-size: 18px;
+    margin: 20px;
 }
 
 

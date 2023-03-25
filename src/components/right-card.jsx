@@ -1,6 +1,6 @@
 import '../styles/right-card.css';
 import Section from './section';
-import data from '../data'
+import data from '../data';
 
 export default function RightCard(){
 
@@ -17,8 +17,8 @@ export default function RightCard(){
           alt={option.alt}
         />
       ))}
-      <a href='https://www.linkedin.com/in/rebeca-heredia-60599823a/'>
-        <button>Continue</button>
+      <a href='https://www.linkedin.com/in/rebeca-heredia-60599823a' className='continue' >
+        <div  className='continue'><p>Continue</p></div>
       </a>
     </div>
   )
